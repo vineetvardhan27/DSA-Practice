@@ -79,25 +79,11 @@
       "type": "Two Pointers",
       "difficulty": "medium",
       "link": "https://leetcode.com/problems/container-with-most-water/"
-    },
+    }
+  ],
+  "intervals": [
     {
       "id": 11,
-      "title": "Merge Intervals",
-      "description": "Given an array of intervals, merge all overlapping intervals and return non-overlapping intervals.",
-      "type": "Sorting",
-      "difficulty": "medium",
-      "link": "https://leetcode.com/problems/merge-intervals/"
-    },
-    {
-      "id": 12,
-      "title": "Non-overlapping Intervals",
-      "description": "Given an array of intervals, return the minimum number of intervals you need to remove to make the rest non-overlapping.",
-      "type": "Greedy",
-      "difficulty": "medium",
-      "link": "https://leetcode.com/problems/non-overlapping-intervals/"
-    },
-    {
-      "id": 13,
       "title": "Insert Interval",
       "description": "Insert a new interval into a sorted list of non-overlapping intervals and merge if necessary.",
       "type": "Array",
@@ -105,23 +91,91 @@
       "link": "https://leetcode.com/problems/insert-interval/"
     },
     {
-      "id": 14,
-      "title": "Rotate Image",
-      "description": "Rotate an n x n 2D matrix representing an image by 90 degrees clockwise in-place.",
-      "type": "Matrix",
+      "id": 12,
+      "title": "Merge Intervals",
+      "description": "Given an array of intervals, merge all overlapping intervals and return non-overlapping intervals.",
+      "type": "Sorting",
       "difficulty": "medium",
-      "link": "https://leetcode.com/problems/rotate-image/"
+      "link": "https://leetcode.com/problems/merge-intervals/"
+    },
+    {
+      "id": 13,
+      "title": "Non-overlapping Intervals",
+      "description": "Given an array of intervals, return the minimum number of intervals you need to remove to make the rest non-overlapping.",
+      "type": "Greedy",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/non-overlapping-intervals/"
+    },
+    {
+      "id": 14,
+      "title": "Meeting Rooms",
+      "description": "Given an array of meeting time intervals, determine if a person could attend all meetings.",
+      "type": "Sorting",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/meeting-rooms/"
     },
     {
       "id": 15,
-      "title": "Spiral Matrix",
-      "description": "Given an m x n matrix, return all elements of the matrix in spiral order.",
-      "type": "Matrix",
+      "title": "Meeting Rooms II",
+      "description": "Given an array of meeting time intervals, find the minimum number of conference rooms required.",
+      "type": "Heap",
       "difficulty": "medium",
-      "link": "https://leetcode.com/problems/spiral-matrix/"
-    },
+      "link": "https://leetcode.com/problems/meeting-rooms-ii/"
+    }
+  ],
+  "linkedlist": [
     {
       "id": 16,
+      "title": "Reverse Linked List",
+      "description": "Given the head of a singly linked list, reverse the list, and return the reversed list.",
+      "type": "Linked List",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/reverse-linked-list/"
+    },
+    {
+      "id": 17,
+      "title": "Linked List Cycle",
+      "description": "Given head, the head of a linked list, determine if the linked list has a cycle in it.",
+      "type": "Two Pointers",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/linked-list-cycle/"
+    },
+    {
+      "id": 18,
+      "title": "Merge Two Sorted Lists",
+      "description": "Merge two sorted linked lists and return it as a sorted list.",
+      "type": "Linked List",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/merge-two-sorted-lists/"
+    },
+    {
+      "id": 19,
+      "title": "Merge k Sorted Lists",
+      "description": "You are given an array of k linked-lists, each linked-list is sorted in ascending order.",
+      "type": "Divide & Conquer",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/merge-k-sorted-lists/"
+    },
+    {
+      "id": 20,
+      "title": "Remove Nth Node From End of List",
+      "description": "Given the head of a linked list, remove the nth node from the end of the list.",
+      "type": "Two Pointers",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+    },
+    {
+      "id": 21,
+      "title": "Reorder List",
+      "description": "You are given the head of a singly linked-list. Reorder the list to be on the following form.",
+      "type": "Linked List",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/reorder-list/"
+    }
+  ],
+  "matrix": [
+    {
+      "id": 22,
       "title": "Set Matrix Zeroes",
       "description": "Given an m x n matrix, if an element is 0, set its entire row and column to 0.",
       "type": "Matrix",
@@ -129,7 +183,23 @@
       "link": "https://leetcode.com/problems/set-matrix-zeroes/"
     },
     {
-      "id": 17,
+      "id": 23,
+      "title": "Spiral Matrix",
+      "description": "Given an m x n matrix, return all elements of the matrix in spiral order.",
+      "type": "Matrix",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/spiral-matrix/"
+    },
+    {
+      "id": 24,
+      "title": "Rotate Image",
+      "description": "Rotate an n x n 2D matrix representing an image by 90 degrees clockwise in-place.",
+      "type": "Matrix",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/rotate-image/"
+    },
+    {
+      "id": 25,
       "title": "Word Search",
       "description": "Given a 2D board and a word, find if the word exists in the grid using adjacent cells.",
       "type": "Backtracking",
@@ -139,31 +209,7 @@
   ],
   "strings": [
     {
-      "id": 18,
-      "title": "Valid Anagram",
-      "description": "Given two strings s and t, return true if t is an anagram of s, and false otherwise.",
-      "type": "Hash Table",
-      "difficulty": "easy",
-      "link": "https://leetcode.com/problems/valid-anagram/"
-    },
-    {
-      "id": 19,
-      "title": "Valid Parentheses",
-      "description": "Given a string s containing just characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
-      "type": "Stack",
-      "difficulty": "easy",
-      "link": "https://leetcode.com/problems/valid-parentheses/"
-    },
-    {
-      "id": 20,
-      "title": "Valid Palindrome",
-      "description": "Given a string s, return true if it is a palindrome when considering only alphanumeric characters.",
-      "type": "Two Pointers",
-      "difficulty": "easy",
-      "link": "https://leetcode.com/problems/valid-palindrome/"
-    },
-    {
-      "id": 21,
+      "id": 26,
       "title": "Longest Substring Without Repeating Characters",
       "description": "Given a string s, find the length of the longest substring without repeating characters.",
       "type": "Sliding Window",
@@ -171,7 +217,7 @@
       "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
     },
     {
-      "id": 22,
+      "id": 27,
       "title": "Longest Repeating Character Replacement",
       "description": "Find the length of the longest substring containing the same letter after replacing at most k characters.",
       "type": "Sliding Window",
@@ -179,7 +225,7 @@
       "link": "https://leetcode.com/problems/longest-repeating-character-replacement/"
     },
     {
-      "id": 23,
+      "id": 28,
       "title": "Minimum Window Substring",
       "description": "Given two strings s and t, return the minimum window substring of s such that every character in t is included in the window.",
       "type": "Sliding Window",
@@ -187,7 +233,15 @@
       "link": "https://leetcode.com/problems/minimum-window-substring/"
     },
     {
-      "id": 24,
+      "id": 29,
+      "title": "Valid Anagram",
+      "description": "Given two strings s and t, return true if t is an anagram of s, and false otherwise.",
+      "type": "Hash Table",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/valid-anagram/"
+    },
+    {
+      "id": 30,
       "title": "Group Anagrams",
       "description": "Given an array of strings strs, group the anagrams together. You can return the answer in any order.",
       "type": "Hash Table",
@@ -195,7 +249,23 @@
       "link": "https://leetcode.com/problems/group-anagrams/"
     },
     {
-      "id": 25,
+      "id": 31,
+      "title": "Valid Parentheses",
+      "description": "Given a string s containing just characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+      "type": "Stack",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "id": 32,
+      "title": "Valid Palindrome",
+      "description": "Given a string s, return true if it is a palindrome when considering only alphanumeric characters.",
+      "type": "Two Pointers",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/valid-palindrome/"
+    },
+    {
+      "id": 33,
       "title": "Longest Palindromic Substring",
       "description": "Given a string s, return the longest palindromic substring in s.",
       "type": "Dynamic Programming",
@@ -203,7 +273,7 @@
       "link": "https://leetcode.com/problems/longest-palindromic-substring/"
     },
     {
-      "id": 26,
+      "id": 34,
       "title": "Palindromic Substrings",
       "description": "Given a string s, return the number of palindromic substrings in it.",
       "type": "Dynamic Programming",
@@ -211,7 +281,7 @@
       "link": "https://leetcode.com/problems/palindromic-substrings/"
     },
     {
-      "id": 27,
+      "id": 35,
       "title": "Encode and Decode Strings",
       "description": "Design an algorithm to encode a list of strings to a string and decode the string back to the original list.",
       "type": "Design",
@@ -219,9 +289,167 @@
       "link": "https://leetcode.com/problems/encode-and-decode-strings/"
     }
   ],
+  "trees": [
+    {
+      "id": 36,
+      "title": "Maximum Depth of Binary Tree",
+      "description": "Given the root of a binary tree, return its maximum depth.",
+      "type": "DFS",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+    },
+    {
+      "id": 37,
+      "title": "Same Tree",
+      "description": "Given the roots of two binary trees p and q, write a function to check if they are the same.",
+      "type": "DFS",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/same-tree/"
+    },
+    {
+      "id": 38,
+      "title": "Invert Binary Tree",
+      "description": "Given the root of a binary tree, invert the tree, and return its root.",
+      "type": "DFS",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/invert-binary-tree/"
+    },
+    {
+      "id": 39,
+      "title": "Binary Tree Maximum Path Sum",
+      "description": "A path in a binary tree is a sequence of nodes where each pair of adjacent nodes has an edge connecting them.",
+      "type": "DFS",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+    },
+    {
+      "id": 40,
+      "title": "Binary Tree Level Order Traversal",
+      "description": "Given the root of a binary tree, return the level order traversal of its nodes' values.",
+      "type": "BFS",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+    },
+    {
+      "id": 41,
+      "title": "Serialize and Deserialize Binary Tree",
+      "description": "Design an algorithm to serialize and deserialize a binary tree.",
+      "type": "DFS",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+    },
+    {
+      "id": 42,
+      "title": "Subtree of Another Tree",
+      "description": "Given the roots of two binary trees root and subRoot, return true if there is a subtree of root with the same structure and node values of subRoot.",
+      "type": "DFS",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/subtree-of-another-tree/"
+    },
+    {
+      "id": 43,
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "description": "Given two integer arrays preorder and inorder, construct and return the binary tree.",
+      "type": "DFS",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+    },
+    {
+      "id": 44,
+      "title": "Validate Binary Search Tree",
+      "description": "Given the root of a binary tree, determine if it is a valid binary search tree (BST).",
+      "type": "DFS",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/validate-binary-search-tree/"
+    },
+    {
+      "id": 45,
+      "title": "Kth Smallest Element in a BST",
+      "description": "Given the root of a binary search tree, and an integer k, return the kth smallest value.",
+      "type": "DFS",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+    },
+    {
+      "id": 46,
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "description": "Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.",
+      "type": "DFS",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+    },
+    {
+      "id": 47,
+      "title": "Implement Trie (Prefix Tree)",
+      "description": "A trie (pronounced as \"try\") or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings.",
+      "type": "Trie",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+    },
+    {
+      "id": 48,
+      "title": "Add and Search Word - Data structure design",
+      "description": "Design a data structure that supports adding new words and finding if a string matches any previously added string.",
+      "type": "Trie",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/add-and-search-word-data-structure-design/"
+    },
+    {
+      "id": 49,
+      "title": "Word Search II",
+      "description": "Given an m x n board of characters and a list of strings words, return all words on the board.",
+      "type": "Trie",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/word-search-ii/"
+    }
+  ],
+  "heaps": [
+    {
+      "id": 50,
+      "title": "Merge k Sorted Lists",
+      "description": "You are given an array of k linked-lists, each linked-list is sorted in ascending order.",
+      "type": "Heap",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/merge-k-sorted-lists/"
+    },
+    {
+      "id": 51,
+      "title": "Top K Frequent Elements",
+      "description": "Given an integer array nums and an integer k, return the k most frequent elements.",
+      "type": "Heap",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/top-k-frequent-elements/"
+    },
+    {
+      "id": 52,
+      "title": "Find Median from Data Stream",
+      "description": "The median is the middle value in an ordered integer list. Design a data structure that supports adding integer to a data structure and finding the median of all elements.",
+      "type": "Heap",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/find-median-from-data-stream/"
+    }
+  ],
+  "backtracking": [
+    {
+      "id": 53,
+      "title": "Combination Sum",
+      "description": "Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations.",
+      "type": "Backtracking",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/combination-sum/"
+    },
+    {
+      "id": 54,
+      "title": "Word Search",
+      "description": "Given a 2D board and a word, find if the word exists in the grid using adjacent cells.",
+      "type": "Backtracking",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/word-search/"
+    }
+  ],
   "graphs": [
     {
-      "id": 28,
+      "id": 55,
       "title": "Number of Islands",
       "description": "Given an m x n 2D binary grid which represents a map of '1's (land) and '0's (water), return the number of islands.",
       "type": "DFS/BFS",
@@ -229,7 +457,7 @@
       "link": "https://leetcode.com/problems/number-of-islands/"
     },
     {
-      "id": 29,
+      "id": 56,
       "title": "Clone Graph",
       "description": "Given a reference of a node in a connected undirected graph, return a deep copy (clone) of the graph.",
       "type": "DFS/BFS",
@@ -237,7 +465,7 @@
       "link": "https://leetcode.com/problems/clone-graph/"
     },
     {
-      "id": 30,
+      "id": 57,
       "title": "Course Schedule",
       "description": "Determine if you can finish all courses given the prerequisites. This is a cycle detection problem.",
       "type": "Topological Sort",
@@ -245,7 +473,7 @@
       "link": "https://leetcode.com/problems/course-schedule/"
     },
     {
-      "id": 31,
+      "id": 58,
       "title": "Course Schedule II",
       "description": "Return the ordering of courses you should take to finish all courses, or return empty array if impossible.",
       "type": "Topological Sort",
@@ -253,7 +481,7 @@
       "link": "https://leetcode.com/problems/course-schedule-ii/"
     },
     {
-      "id": 32,
+      "id": 59,
       "title": "Pacific Atlantic Water Flow",
       "description": "Given heights of a continent, find all coordinates where water can flow to both Pacific and Atlantic oceans.",
       "type": "DFS/BFS",
@@ -261,7 +489,7 @@
       "link": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
     },
     {
-      "id": 33,
+      "id": 60,
       "title": "Number of Connected Components in an Undirected Graph",
       "description": "Find the number of connected components in an undirected graph with n vertices.",
       "type": "Union Find",
@@ -269,7 +497,7 @@
       "link": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
     },
     {
-      "id": 34,
+      "id": 61,
       "title": "Longest Consecutive Sequence",
       "description": "Given an unsorted array of integers, return the length of the longest consecutive elements sequence.",
       "type": "Hash Table",
@@ -277,7 +505,7 @@
       "link": "https://leetcode.com/problems/longest-consecutive-sequence/"
     },
     {
-      "id": 35,
+      "id": 62,
       "title": "Graph Valid Tree",
       "description": "Given n nodes and edges, determine if they form a valid tree (connected and no cycles).",
       "type": "Union Find",
@@ -285,20 +513,144 @@
       "link": "https://leetcode.com/problems/graph-valid-tree/"
     },
     {
-      "id": 36,
+      "id": 63,
       "title": "Alien Dictionary",
       "description": "Given words from an alien language, deduce the order of letters in the alien alphabet.",
       "type": "Topological Sort",
       "difficulty": "hard",
       "link": "https://leetcode.com/problems/alien-dictionary/"
+    }
+  ],
+  "dynamic": [
+    {
+      "id": 64,
+      "title": "Climbing Stairs",
+      "description": "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps.",
+      "type": "Dynamic Programming",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/climbing-stairs/"
     },
     {
-      "id": 37,
-      "title": "Word Ladder",
-      "description": "Given two words and a dictionary, find the shortest transformation sequence length.",
-      "type": "BFS",
-      "difficulty": "hard",
-      "link": "https://leetcode.com/problems/word-ladder/"
+      "id": 65,
+      "title": "Coin Change",
+      "description": "You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/coin-change/"
+    },
+    {
+      "id": 66,
+      "title": "Longest Increasing Subsequence",
+      "description": "Given an integer array nums, return the length of the longest strictly increasing subsequence.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/longest-increasing-subsequence/"
+    },
+    {
+      "id": 67,
+      "title": "Longest Common Subsequence",
+      "description": "Given two strings text1 and text2, return the length of their longest common subsequence.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/longest-common-subsequence/"
+    },
+    {
+      "id": 68,
+      "title": "Word Break",
+      "description": "Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/word-break/"
+    },
+    {
+      "id": 69,
+      "title": "Combination Sum IV",
+      "description": "Given an array of distinct integers nums and a target integer target, return the number of possible combinations that add up to target.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/combination-sum-iv/"
+    },
+    {
+      "id": 70,
+      "title": "House Robber",
+      "description": "You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/house-robber/"
+    },
+    {
+      "id": 71,
+      "title": "House Robber II",
+      "description": "You are a professional robber planning to rob houses along a street. All houses at this place are arranged in a circle.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/house-robber-ii/"
+    },
+    {
+      "id": 72,
+      "title": "Decode Ways",
+      "description": "A message containing letters from A-Z can be encoded into numbers using the mapping 'A' -> \"1\", 'B' -> \"2\", ..., 'Z' -> \"26\".",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/decode-ways/"
+    },
+    {
+      "id": 73,
+      "title": "Unique Paths",
+      "description": "There is a robot on an m x n grid. The robot is initially located at the top-left corner. The robot tries to move to the bottom-right corner.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/unique-paths/"
+    },
+    {
+      "id": 74,
+      "title": "Jump Game",
+      "description": "You are given an integer array nums. You are initially positioned at the array's first index.",
+      "type": "Greedy",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/jump-game/"
+    }
+  ],
+  "bit": [
+    {
+      "id": 75,
+      "title": "Sum of Two Integers",
+      "description": "Given two integers a and b, return the sum of the two integers without using the operators + and -.",
+      "type": "Bit Manipulation",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/sum-of-two-integers/"
+    },
+    {
+      "id": 76,
+      "title": "Number of 1 Bits",
+      "description": "Write a function that takes an unsigned integer and returns the number of '1' bits it has.",
+      "type": "Bit Manipulation",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/number-of-1-bits/"
+    },
+    {
+      "id": 77,
+      "title": "Counting Bits",
+      "description": "Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.",
+      "type": "Bit Manipulation",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/counting-bits/"
+    },
+    {
+      "id": 78,
+      "title": "Missing Number",
+      "description": "Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.",
+      "type": "Bit Manipulation",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/missing-number/"
+    },
+    {
+      "id": 79,
+      "title": "Reverse Bits",
+      "description": "Reverse bits of a given 32 bits unsigned integer.",
+      "type": "Bit Manipulation",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/reverse-bits/"
     }
   ]
 }
