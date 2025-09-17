@@ -12,8 +12,7 @@ A modern, responsive website for practicing Data Structures and Algorithms probl
 
 ## 📚 Question Database
 
-- **37 Blind 75 Problems**: Complete set of essential coding interview questions
-- **Organized by Category**: Arrays (17), Strings (10), Graphs (10)
+- **75 Problems**: Complete set of essential coding interview questions
 - **Difficulty Levels**: Easy, Medium, Hard with color-coded badges
 - **Algorithm Types**: Hash Table, Two Pointers, Sliding Window, DP, BFS/DFS, etc.
 - **Direct LeetCode Links**: One-click access to practice problems
