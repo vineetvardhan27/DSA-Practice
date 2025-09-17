@@ -1,0 +1,304 @@
+{
+  "arrays": [
+    {
+      "id": 1,
+      "title": "Two Sum",
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+      "type": "Hash Table",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/two-sum/"
+    },
+    {
+      "id": 2,
+      "title": "Best Time to Buy and Sell Stock",
+      "description": "You are given an array prices where prices[i] is the price of a given stock on the ith day. Find maximum profit.",
+      "type": "Dynamic Programming",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    },
+    {
+      "id": 3,
+      "title": "Contains Duplicate",
+      "description": "Given an integer array nums, return true if any value appears at least twice in the array.",
+      "type": "Hash Table",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/contains-duplicate/"
+    },
+    {
+      "id": 4,
+      "title": "Product of Array Except Self",
+      "description": "Given an integer array nums, return an array answer such that answer[i] is equal to the product of all elements except nums[i].",
+      "type": "Prefix Sum",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/product-of-array-except-self/"
+    },
+    {
+      "id": 5,
+      "title": "Maximum Subarray",
+      "description": "Given an integer array nums, find the contiguous subarray with the largest sum, and return its sum.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/maximum-subarray/"
+    },
+    {
+      "id": 6,
+      "title": "Maximum Product Subarray",
+      "description": "Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/maximum-product-subarray/"
+    },
+    {
+      "id": 7,
+      "title": "Find Minimum in Rotated Sorted Array",
+      "description": "Find the minimum element in a rotated sorted array with unique elements.",
+      "type": "Binary Search",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+    },
+    {
+      "id": 8,
+      "title": "Search in Rotated Sorted Array",
+      "description": "Search for a target value in a rotated sorted array. Return its index or -1 if not found.",
+      "type": "Binary Search",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+    },
+    {
+      "id": 9,
+      "title": "3Sum",
+      "description": "Given an integer array nums, return all unique triplets that sum to zero.",
+      "type": "Two Pointers",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/3sum/"
+    },
+    {
+      "id": 10,
+      "title": "Container With Most Water",
+      "description": "Find two lines that together with the x-axis form a container that holds the most water.",
+      "type": "Two Pointers",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/container-with-most-water/"
+    },
+    {
+      "id": 11,
+      "title": "Merge Intervals",
+      "description": "Given an array of intervals, merge all overlapping intervals and return non-overlapping intervals.",
+      "type": "Sorting",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/merge-intervals/"
+    },
+    {
+      "id": 12,
+      "title": "Non-overlapping Intervals",
+      "description": "Given an array of intervals, return the minimum number of intervals you need to remove to make the rest non-overlapping.",
+      "type": "Greedy",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/non-overlapping-intervals/"
+    },
+    {
+      "id": 13,
+      "title": "Insert Interval",
+      "description": "Insert a new interval into a sorted list of non-overlapping intervals and merge if necessary.",
+      "type": "Array",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/insert-interval/"
+    },
+    {
+      "id": 14,
+      "title": "Rotate Image",
+      "description": "Rotate an n x n 2D matrix representing an image by 90 degrees clockwise in-place.",
+      "type": "Matrix",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/rotate-image/"
+    },
+    {
+      "id": 15,
+      "title": "Spiral Matrix",
+      "description": "Given an m x n matrix, return all elements of the matrix in spiral order.",
+      "type": "Matrix",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/spiral-matrix/"
+    },
+    {
+      "id": 16,
+      "title": "Set Matrix Zeroes",
+      "description": "Given an m x n matrix, if an element is 0, set its entire row and column to 0.",
+      "type": "Matrix",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/set-matrix-zeroes/"
+    },
+    {
+      "id": 17,
+      "title": "Word Search",
+      "description": "Given a 2D board and a word, find if the word exists in the grid using adjacent cells.",
+      "type": "Backtracking",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/word-search/"
+    }
+  ],
+  "strings": [
+    {
+      "id": 18,
+      "title": "Valid Anagram",
+      "description": "Given two strings s and t, return true if t is an anagram of s, and false otherwise.",
+      "type": "Hash Table",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/valid-anagram/"
+    },
+    {
+      "id": 19,
+      "title": "Valid Parentheses",
+      "description": "Given a string s containing just characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+      "type": "Stack",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "id": 20,
+      "title": "Valid Palindrome",
+      "description": "Given a string s, return true if it is a palindrome when considering only alphanumeric characters.",
+      "type": "Two Pointers",
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/valid-palindrome/"
+    },
+    {
+      "id": 21,
+      "title": "Longest Substring Without Repeating Characters",
+      "description": "Given a string s, find the length of the longest substring without repeating characters.",
+      "type": "Sliding Window",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+    },
+    {
+      "id": 22,
+      "title": "Longest Repeating Character Replacement",
+      "description": "Find the length of the longest substring containing the same letter after replacing at most k characters.",
+      "type": "Sliding Window",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+    },
+    {
+      "id": 23,
+      "title": "Minimum Window Substring",
+      "description": "Given two strings s and t, return the minimum window substring of s such that every character in t is included in the window.",
+      "type": "Sliding Window",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/minimum-window-substring/"
+    },
+    {
+      "id": 24,
+      "title": "Group Anagrams",
+      "description": "Given an array of strings strs, group the anagrams together. You can return the answer in any order.",
+      "type": "Hash Table",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/group-anagrams/"
+    },
+    {
+      "id": 25,
+      "title": "Longest Palindromic Substring",
+      "description": "Given a string s, return the longest palindromic substring in s.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/longest-palindromic-substring/"
+    },
+    {
+      "id": 26,
+      "title": "Palindromic Substrings",
+      "description": "Given a string s, return the number of palindromic substrings in it.",
+      "type": "Dynamic Programming",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/palindromic-substrings/"
+    },
+    {
+      "id": 27,
+      "title": "Encode and Decode Strings",
+      "description": "Design an algorithm to encode a list of strings to a string and decode the string back to the original list.",
+      "type": "Design",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/encode-and-decode-strings/"
+    }
+  ],
+  "graphs": [
+    {
+      "id": 28,
+      "title": "Number of Islands",
+      "description": "Given an m x n 2D binary grid which represents a map of '1's (land) and '0's (water), return the number of islands.",
+      "type": "DFS/BFS",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/number-of-islands/"
+    },
+    {
+      "id": 29,
+      "title": "Clone Graph",
+      "description": "Given a reference of a node in a connected undirected graph, return a deep copy (clone) of the graph.",
+      "type": "DFS/BFS",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/clone-graph/"
+    },
+    {
+      "id": 30,
+      "title": "Course Schedule",
+      "description": "Determine if you can finish all courses given the prerequisites. This is a cycle detection problem.",
+      "type": "Topological Sort",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/course-schedule/"
+    },
+    {
+      "id": 31,
+      "title": "Course Schedule II",
+      "description": "Return the ordering of courses you should take to finish all courses, or return empty array if impossible.",
+      "type": "Topological Sort",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/course-schedule-ii/"
+    },
+    {
+      "id": 32,
+      "title": "Pacific Atlantic Water Flow",
+      "description": "Given heights of a continent, find all coordinates where water can flow to both Pacific and Atlantic oceans.",
+      "type": "DFS/BFS",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+    },
+    {
+      "id": 33,
+      "title": "Number of Connected Components in an Undirected Graph",
+      "description": "Find the number of connected components in an undirected graph with n vertices.",
+      "type": "Union Find",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
+    },
+    {
+      "id": 34,
+      "title": "Longest Consecutive Sequence",
+      "description": "Given an unsorted array of integers, return the length of the longest consecutive elements sequence.",
+      "type": "Hash Table",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/longest-consecutive-sequence/"
+    },
+    {
+      "id": 35,
+      "title": "Graph Valid Tree",
+      "description": "Given n nodes and edges, determine if they form a valid tree (connected and no cycles).",
+      "type": "Union Find",
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/graph-valid-tree/"
+    },
+    {
+      "id": 36,
+      "title": "Alien Dictionary",
+      "description": "Given words from an alien language, deduce the order of letters in the alien alphabet.",
+      "type": "Topological Sort",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/alien-dictionary/"
+    },
+    {
+      "id": 37,
+      "title": "Word Ladder",
+      "description": "Given two words and a dictionary, find the shortest transformation sequence length.",
+      "type": "BFS",
+      "difficulty": "hard",
+      "link": "https://leetcode.com/problems/word-ladder/"
+    }
+  ]
+}

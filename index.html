@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Practice - Data Structures & Algorithms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="main-title">DSA Practice</h1>
+            <p class="subtitle">Master Data Structures & Algorithms with interactive practice problems</p>
+            
+            <!-- Feature Cards -->
+            <div class="header-features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <span class="feature-text">37+ Problems</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <span class="feature-text">Blind 75</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <span class="feature-text">Interview Ready</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#arrays" class="nav-link active">Arrays</a></li>
+                <li><a href="#strings" class="nav-link">Strings</a></li>
+                <li><a href="#graphs" class="nav-link">Graphs</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search problems..." class="search-input">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Arrays Section -->
+            <section id="arrays" class="topic-section active">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i class="fas fa-th-large topic-icon"></i>
+                        Arrays
+                    </h2>
+                    <p class="section-description">Master array manipulation and algorithms</p>
+                </div>
+                <div class="problems-grid" id="arraysProblems">
+                    <!-- Problems will be dynamically loaded here -->
+                </div>
+            </section>
+
+            <!-- Strings Section -->
+            <section id="strings" class="topic-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i class="fas fa-quote-left topic-icon"></i>
+                        Strings
+                    </h2>
+                    <p class="section-description">String manipulation and pattern matching</p>
+                </div>
+                <div class="problems-grid" id="stringsProblems">
+                    <!-- Problems will be dynamically loaded here -->
+                </div>
+            </section>
+
+            <!-- Graphs Section -->
+            <section id="graphs" class="topic-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i class="fas fa-project-diagram topic-icon"></i>
+                        Graphs
+                    </h2>
+                    <p class="section-description">Graph algorithms and traversal techniques</p>
+                </div>
+                <div class="problems-grid" id="graphsProblems">
+                    <!-- Problems will be dynamically loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 DSA Practice. Built for learning and growth.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
